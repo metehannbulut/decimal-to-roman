@@ -6,7 +6,7 @@ int main()  //Our Main func.
 {
     int i;
 
-    printf("How much number you want to convert?\n");
+    printf("How many number you want to convert?\n");
     scanf("%d",&i);
     printf("\n");
 
