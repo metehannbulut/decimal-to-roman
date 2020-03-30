@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
 
 
 int main()  //Our Main func.
@@ -13,7 +14,9 @@ int main()  //Our Main func.
     for(i;i>0;i--){
         converter();
     }
-
+    printf("Programm will be shutted down in 5 sec");
+    sleep(5);
+    
     return 0;
 }
 
