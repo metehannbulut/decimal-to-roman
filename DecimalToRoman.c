@@ -2,25 +2,6 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-
-int main()  //Our Main func.
-{
-    int i;
-
-    printf("How many number you want to convert?\n");
-    scanf("%d",&i);
-    printf("\n");
-
-    for(i;i>0;i--){
-        converter();
-    }
-    printf("Programm will be shutted down in 5 sec");
-    sleep(5);
-    
-    return 0;
-}
-
-
 void converter() //Decimal to Roman number converter func.
 {
     int number,i= 0;
@@ -123,4 +104,19 @@ void converter() //Decimal to Roman number converter func.
         printf("\n\n\n");
 }
 
+int main()  //Our Main func.
+{
+    int i;
 
+    printf("How many number you want to convert?\n");
+    scanf("%d",&i);
+    printf("\n");
+
+    for(i;i>0;i--){
+        converter();
+    }
+    printf("Programm will be shutted down in 5 sec");
+    sleep(5);
+    
+    return 0;
+}
